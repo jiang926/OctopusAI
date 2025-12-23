@@ -105,6 +105,18 @@
 3. **Deploy:** One-click to initialize the AI environment (3-5 mins).
 4. **Create:** Access via WebUI or SSH into the backend.
 
+## 🧭 应用功能演示 / 使用步骤
+
+![应用功能截图](./img/1b91520f-ef0d-44ed-b1b8-103b0782cbbd.png)
+
+步骤说明（对应截图标注）：
+1) 在「选择AI应用」下拉选择需要的工作流，点击「刷新」同步列表。  
+2) 填写/检查「应用介绍」与输入参数（如素材路径、放大倍率等）。  
+3) 点击底部「租用GPU主机」获取带显卡的服务器，自动显示主机 IP、端口和密码，方便远程开发与调试。  
+4) 勾选「自动部署应用环境」，点击「提交任务」一键初始化依赖并运行。  
+5) 右侧「任务日志」实时展示加载/推理进度，便于排错。  
+6) 初始化完成后可直接生成结果；需要时可在底部入口查看部署日志、AI调试面板或重置任务。  
+
 ## 📦 App 下载
 
 - Windows/macOS 客户端压缩包：<https://octopusai.oss-cn-shenzhen.aliyuncs.com/downloads/OctopusAI.zip>
@@ -113,7 +125,7 @@
 
 ## 🤝 Contact & Join Us / 联系与加入
 
-**Email:** `your-email@example.com`  
+**Email:** `xxx@example.com`  
 **Discord/WeChat:** `[Your ID]`
 
 **"Break the limits. Own your AI." / "打破束缚，掌握属于你的 AI。"**
