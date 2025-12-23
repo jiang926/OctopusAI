@@ -26,6 +26,7 @@
 </p>
 
 ### 🎨 Uncensored Creativity / 无限制艺术创作
+> GitHub README 的沙箱不允许内嵌播放视频，改为“封面图 + 播放/下载链接”形式，点击封面即可在新标签播放。
 
 <table>
   <tr>
@@ -35,18 +36,16 @@
   </tr>
   <tr>
     <td align="center">
-      <video width="240" controls preload="metadata" poster="https://via.placeholder.com/240x135.png?text=Loading+Video"
-        src="https://github.com/jiang926/OctopusAI/raw/master/source/a.mp4" type="video/mp4">
-        不支持视频预览时可点击下方链接
-      </video>
-      <div><a href="https://github.com/jiang926/OctopusAI/raw/master/source/a.mp4">下载/全屏</a></div>
+      <a href="https://github.com/jiang926/OctopusAI/raw/master/source/a.mp4" target="_blank" rel="noopener">
+        <img src="https://via.placeholder.com/240x135.png?text=Click+to+Play+Text-to-Image" width="240" />
+      </a>
+      <div><a href="https://github.com/jiang926/OctopusAI/raw/master/source/a.mp4">播放/下载 mp4</a></div>
     </td>
     <td align="center">
-      <video width="240" controls preload="metadata" poster="https://via.placeholder.com/240x135.png?text=Loading+Video"
-        src="https://github.com/jiang926/OctopusAI/raw/master/result/a_result.mp4" type="video/mp4">
-        不支持视频预览时可点击下方链接
-      </video>
-      <div><a href="https://github.com/jiang926/OctopusAI/raw/master/result/a_result.mp4">下载/全屏</a></div>
+      <a href="https://github.com/jiang926/OctopusAI/raw/master/result/a_result.mp4" target="_blank" rel="noopener">
+        <img src="https://via.placeholder.com/240x135.png?text=Click+to+Play+Style+Transfer" width="240" />
+      </a>
+      <div><a href="https://github.com/jiang926/OctopusAI/raw/master/result/a_result.mp4">播放/下载 mp4</a></div>
     </td>
     <td align="center">
       <img src="https://via.placeholder.com/300x300.png?text=HD+Detail" width="240" />
