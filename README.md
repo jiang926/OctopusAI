@@ -35,18 +35,18 @@
   </tr>
   <tr>
     <td align="center">
-      <video width="240" controls preload="metadata"
-        src="https://raw.githubusercontent.com/jiang926/OctopusAI/master/source/a.mp4?raw=1">
+      <video width="240" controls preload="metadata" poster="https://via.placeholder.com/240x135.png?text=Loading+Video"
+        src="https://github.com/jiang926/OctopusAI/raw/master/source/a.mp4" type="video/mp4">
         不支持视频预览时可点击下方链接
       </video>
-      <div><a href="https://raw.githubusercontent.com/jiang926/OctopusAI/master/source/a.mp4?raw=1">下载/全屏</a></div>
+      <div><a href="https://github.com/jiang926/OctopusAI/raw/master/source/a.mp4">下载/全屏</a></div>
     </td>
     <td align="center">
-      <video width="240" controls preload="metadata"
-        src="https://raw.githubusercontent.com/jiang926/OctopusAI/master/result/a_result.mp4?raw=1">
+      <video width="240" controls preload="metadata" poster="https://via.placeholder.com/240x135.png?text=Loading+Video"
+        src="https://github.com/jiang926/OctopusAI/raw/master/result/a_result.mp4" type="video/mp4">
         不支持视频预览时可点击下方链接
       </video>
-      <div><a href="https://raw.githubusercontent.com/jiang926/OctopusAI/master/result/a_result.mp4?raw=1">下载/全屏</a></div>
+      <div><a href="https://github.com/jiang926/OctopusAI/raw/master/result/a_result.mp4">下载/全屏</a></div>
     </td>
     <td align="center">
       <img src="https://via.placeholder.com/300x300.png?text=HD+Detail" width="240" />
