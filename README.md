@@ -26,10 +26,33 @@
 </p>
 
 ### 🎨 Uncensored Creativity / 无限制艺术创作
-| Text-to-Image (No Filter) | Style Transfer | 4K Upscaling |
-| :---: | :---: | :---: |
-| ![Image1](https://via.placeholder.com/300x300.png?text=No+Censorship) | ![Image2](https://via.placeholder.com/300x300.png?text=Custom+Lora) | ![Image3](https://via.placeholder.com/300x300.png?text=HD+Detail) |
-| **真正的 Prompt 自由** | **多模型/Lora 支持** | **4K/8K 无损画质** |
+> GitHub 的 README 不会内嵌播放本地 mp4，点击缩略图或链接可在新标签直接观看原始视频。
+
+<table>
+  <tr>
+    <th>Text-to-Image (No Filter)</th>
+    <th>Style Transfer</th>
+    <th>4K Upscaling</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="./source/a.mp4">🎬 查看原始视频</a><br/>
+      <img src="https://via.placeholder.com/240x135.png?text=Text-to-Image+Preview" width="240" />
+    </td>
+    <td align="center">
+      <a href="./result/a_result.mp4">🎬 查看原始视频</a><br/>
+      <img src="https://via.placeholder.com/240x135.png?text=Style+Transfer+Preview" width="240" />
+    </td>
+    <td align="center">
+      <img src="https://via.placeholder.com/300x300.png?text=HD+Detail" width="240" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><strong>真正的 Prompt 自由</strong></td>
+    <td align="center"><strong>多模型/Lora 支持</strong></td>
+    <td align="center"><strong>4K/8K 无损画质</strong></td>
+  </tr>
+</table>
 
 ---
 
