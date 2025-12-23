@@ -105,6 +105,10 @@
 3. **Deploy:** One-click to initialize the AI environment (3-5 mins).
 4. **Create:** Access via WebUI or SSH into the backend.
 
+## 📦 App 下载
+
+- Windows/macOS 客户端压缩包：<https://octopusai.oss-cn-shenzhen.aliyuncs.com/downloads/OctopusAI.zip>
+
 ---
 
 ## 🤝 Contact & Join Us / 联系与加入
