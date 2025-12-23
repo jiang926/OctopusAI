@@ -26,7 +26,6 @@
 </p>
 
 ### 🎨 Uncensored Creativity / 无限制艺术创作
-> 直接网页预览：请将下方 raw 链接中的 `YOUR_GITHUB_USERNAME` 替换为你的 GitHub 账号或组织名，分支如非 `main` 也请调整。GitHub README 支持 `<video>`，但必须指向 raw 链接才能播放。
 
 <table>
   <tr>
@@ -37,17 +36,17 @@
   <tr>
     <td align="center">
       <video width="240" controls preload="metadata"
-        src="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/OctopusAI/main/source/a.mp4">
+        src="https://raw.githubusercontent.com/jiang926/OctopusAI/master/source/a.mp4?raw=1">
         不支持视频预览时可点击下方链接
       </video>
-      <div><a href="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/OctopusAI/main/source/a.mp4">下载/全屏</a></div>
+      <div><a href="https://raw.githubusercontent.com/jiang926/OctopusAI/master/source/a.mp4?raw=1">下载/全屏</a></div>
     </td>
     <td align="center">
       <video width="240" controls preload="metadata"
-        src="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/OctopusAI/main/result/a_result.mp4">
+        src="https://raw.githubusercontent.com/jiang926/OctopusAI/master/result/a_result.mp4?raw=1">
         不支持视频预览时可点击下方链接
       </video>
-      <div><a href="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/OctopusAI/main/result/a_result.mp4">下载/全屏</a></div>
+      <div><a href="https://raw.githubusercontent.com/jiang926/OctopusAI/master/result/a_result.mp4?raw=1">下载/全屏</a></div>
     </td>
     <td align="center">
       <img src="https://via.placeholder.com/300x300.png?text=HD+Detail" width="240" />
