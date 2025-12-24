@@ -1,0 +1,77 @@
+{
+    "app_id": "video-High-Quality",
+    "name": "视频高清放大",
+    "description": "视频高清放大，需要编译环境，时间较长，建议使用镜像导入。选择的机器显存大于48G",
+    "author": "Jiang",
+    "homepage": "",
+    "email": "jiang@gmail.com",
+    "inputs": [
+        {
+            "label": "视频文件",
+            "field_name": "video_file",
+            "type": "file",
+            "default_value": "",
+            "editable": true,
+            "required": true
+        },
+        {
+            "label": "放大倍数",
+            "field_name": "zoom_factor",
+            "type": "number",
+            "default_value": 2,
+            "editable": true,
+            "required": true
+        }
+    ],
+    "variables": {
+        "work_dir": "$HOME"
+    },
+    "server_output_file": "/tmp/results/video-High-Quality/output.mp4",
+    "server_output_dir": "",
+    "model_path": "$HOME/.cache/video-High-Quality",
+    "installs": [
+        {
+            "env_name": "video-High-Quality",
+            "python_version": "3.11.14",
+            "cuda_version": "12.8",
+            "commands": [
+                "cd {work_dir}",
+                "pwd",
+                "find ./ -maxdepth 1 -type d ! -name \"miniconda*\" ! -name \".*\" -exec rm -rf {} +",
+                "wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2404/x86_64/cuda-keyring_1.1-1_all.deb",
+                "dpkg -i cuda-keyring_1.1-1_all.deb",
+                "apt-get update",
+                "apt-get install cuda-toolkit-12-8 -y",
+                "apt install ffmpeg -y",
+                "apt install git-lfs -y",
+                "git lfs install",
+                "[ ! -d \"Video-High-Quality\" ] && git clone https://github.com/jiang926/Video-High-Quality.git || echo \"目录已存在，跳过克隆。\"",
+                "cd Video-High-Quality",
+                "pip install torch torchvision torchaudio  --index-url https://download.pytorch.org/whl/cu128",
+                "rm -rf requirements.txt",
+                "pip install -e .",
+                "pip install imageio tqdm huggingface_hub modelscope transformers sentencepiece ftfy imageio-ffmpeg",
+                "cd {work_dir}",
+                "[ ! -d \"Block-Sparse-Attention\" ] && git clone https://github.com/mit-han-lab/Block-Sparse-Attention.git || echo \"目录已存在，跳过克隆。\"",
+                "cd Block-Sparse-Attention",
+                "pip install packaging",
+                "pip install ninja",
+                "pip install {work_dir}/Video-High-Quality/packages/block_sparse_attn-0.0.1-cp311-cp311-linux_x86_64.whl || pip install https://github.com/jiang926/Video-High-Quality/raw/main/packages/block_sparse_attn-0.0.1-cp311-cp311-linux_x86_64.whl",
+                "cd {work_dir}",
+                "cd Video-High-Quality/examples/WanVSR",
+                "rm -rf FlashVSR-v1.1",
+                "[ ! -d \"FlashVSR-v1.1\" ] && git lfs clone https://huggingface.co/JunhaoZhuang/FlashVSR-v1.1 || echo \"目录已存在，跳过克隆。\""
+            ]
+        }
+    ],
+    "batch": [
+        {
+            "name": "视频高清放大",
+            "env_name": "video-High-Quality",
+            "commands": [
+                "cd {work_dir}/Video-High-Quality/examples/WanVSR",
+                "python infer_flashvsr_v1.1_tiny_long_video.py --input {video_file} --output {server_output_file} --scale {zoom_factor} --device cuda --keep_audio" 
+            ]
+        }
+    ]
+}

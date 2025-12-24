@@ -117,6 +117,13 @@
 5) 右侧「任务日志」实时展示加载/推理进度，便于排错。  
 6) 初始化完成后可直接生成结果；需要时可在底部入口查看部署日志、AI调试面板或重置任务。  
 
+## 📂 项目结构
+
+- `img/`：存放说明或演示图片。  
+- `source/`：存放源素材文件（如输入视频/图片）。  
+- `result/`：存放运行或推理生成的结果文件。  
+- `task_configs/`：应用功能配置文件，开发者可参考并自定义扩展。  
+
 ## 📦 App 下载
 
 - Windows/macOS 客户端压缩包：<https://octopusai.oss-cn-shenzhen.aliyuncs.com/downloads/OctopusAI.zip>

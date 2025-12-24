@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>OctopusAI Demo Videos</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 24px; background: #f7f7f7; color: #222; }
+    h1 { margin-bottom: 8px; }
+    p.desc { margin-top: 0; color: #555; }
+    .grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+    .card { background: #fff; border-radius: 8px; padding: 16px; box-shadow: 0 2px 6px rgba(0,0,0,0.08); }
+    video { width: 100%; border-radius: 6px; background: #000; }
+    .meta { font-size: 14px; color: #666; margin-top: 8px; }
+    a { color: #0b70ff; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <h1>OctopusAI 视频演示</h1>
+  <p class="desc">从 GitHub Pages 直接播放仓库内示例 mp4（通过 raw 链接，无需复制文件到 docs）。若短暂无法播放，可等待缓存生效或新标签打开原始链接。</p>
+
+  <div class="grid">
+    <div class="card">
+      <h3>Text-to-Image 示例</h3>
+      <video controls preload="metadata" poster="https://via.placeholder.com/640x360.png?text=Text-to-Image+Demo">
+        <source src="https://raw.githubusercontent.com/jiang926/OctopusAI/master/source/a.mp4" type="video/mp4" />
+        你的浏览器不支持视频标签，请使用下方链接。
+      </video>
+      <div class="meta">
+        <a href="https://raw.githubusercontent.com/jiang926/OctopusAI/master/source/a.mp4">下载/全屏</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Style Transfer 示例</h3>
+      <video controls preload="metadata" poster="https://via.placeholder.com/640x360.png?text=Style+Transfer+Demo">
+        <source src="https://raw.githubusercontent.com/jiang926/OctopusAI/master/result/a_result.mp4" type="video/mp4" />
+        你的浏览器不支持视频标签，请使用下方链接。
+      </video>
+      <div class="meta">
+        <a href="https://raw.githubusercontent.com/jiang926/OctopusAI/master/result/a_result.mp4">下载/全屏</a>
+      </div>
+    </div>
+  </div>
+
+  <p class="meta">
+    提示：启用 GitHub Pages（Source 选 docs/），URL 形如：
+    <code>https://jiang926.github.io/OctopusAI/</code>（若使用自定义域名请按需替换）。
+  </p>
+</body>
+</html>
+
