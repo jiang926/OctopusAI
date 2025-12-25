@@ -21,42 +21,31 @@
 ## 📺 Showcase / 视觉演示
 
 ### 🎬 AI Video & Upscaling / AI 视频生成与超清修复
-<p align="center">
-  <img src="https://via.placeholder.com/800x450.png?text=Showcase+Your+Video+Demo+Here" width="100%" />
-</p>
+- GitHub README 不能直接内嵌播放视频，采用“封面图 + 点击播放”方式，风格参考示例项目。
+- 在线播放页（GitHub Pages）：<https://jiang926.github.io/OctopusAI/>（如未开启，请在 Settings -> Pages 选择 docs/ 目录启用）。
+
+<div align="center">
+  <a href="https://raw.githubusercontent.com/jiang926/OctopusAI/master/source/a.mp4" target="_blank" rel="noopener">
+    <img src="https://via.placeholder.com/960x540.png?text=Text-to-Image+Demo+%7C+点击播放" width="90%" />
+  </a>
+  <div>
+    <sub>示例 1：Text-to-Image（点击封面或 <a href="https://raw.githubusercontent.com/jiang926/OctopusAI/master/source/a.mp4">播放/下载</a>）</sub>
+  </div>
+</div>
+
+<br/>
+
+<div align="center">
+  <a href="https://raw.githubusercontent.com/jiang926/OctopusAI/master/result/a_result.mp4" target="_blank" rel="noopener">
+    <img src="https://via.placeholder.com/960x540.png?text=Style+Transfer+Demo+%7C+点击播放" width="90%" />
+  </a>
+  <div>
+    <sub>示例 2：Style Transfer（点击封面或 <a href="https://raw.githubusercontent.com/jiang926/OctopusAI/master/result/a_result.mp4">播放/下载</a>）</sub>
+  </div>
+</div>
 
 ### 🎨 Uncensored Creativity / 无限制艺术创作
-> GitHub README 的沙箱不允许内嵌播放视频，改为“封面图 + 播放/下载链接”形式，点击封面即可在新标签播放。
-
-<table>
-  <tr>
-    <th>Text-to-Image (No Filter)</th>
-    <th>Style Transfer</th>
-    <th>4K Upscaling</th>
-  </tr>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/jiang926/OctopusAI/raw/master/source/a.mp4" target="_blank" rel="noopener">
-        <img src="https://via.placeholder.com/240x135.png?text=Click+to+Play+Text-to-Image" width="240" />
-      </a>
-      <div><a href="https://github.com/jiang926/OctopusAI/raw/master/source/a.mp4">播放/下载 mp4</a></div>
-    </td>
-    <td align="center">
-      <a href="https://github.com/jiang926/OctopusAI/raw/master/result/a_result.mp4" target="_blank" rel="noopener">
-        <img src="https://via.placeholder.com/240x135.png?text=Click+to+Play+Style+Transfer" width="240" />
-      </a>
-      <div><a href="https://github.com/jiang926/OctopusAI/raw/master/result/a_result.mp4">播放/下载 mp4</a></div>
-    </td>
-    <td align="center">
-      <img src="https://via.placeholder.com/300x300.png?text=HD+Detail" width="240" />
-    </td>
-  </tr>
-  <tr>
-    <td align="center"><strong>真正的 Prompt 自由</strong></td>
-    <td align="center"><strong>多模型/Lora 支持</strong></td>
-    <td align="center"><strong>4K/8K 无损画质</strong></td>
-  </tr>
-</table>
+- 真正的 Prompt 自由；多模型/Lora 支持；4K/8K 无损画质。
 
 ---
 
